@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MoviesFlix is a popular movie app made by Akash">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- custom js link -->
+     <script src="./assets/js/global.js" defer></script>
+     <script src="./assets/js/movie-list.js" type="module"></script>
+
+</head>
+<body>
+    <!-- 
+            Header section 
+    -->
+    <header class="header">
+        <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" width="140" height="32" alt="MoviesFlix Home" >
+        </a>
+
+        <div class="search-box " search-box>
+            <div class="search-wrapper" search-wrapper>
+                <input type="text" name="search" aria-level="search movies" placeholder="Search any movies..." class="search-field" autocomplete="off" search-field>
+
+                <img src="./assets/images/search.png" width="24" height="24" 
+                  alt="search" class="leading-icon">
+            </div>
+
+            <button class="search-btn" search-toggler>
+                <img src="./assets/images/close.png" width="24" height="24" alt="">
+            </button>
+        </div>
+        <button class="search-btn" search-toggler menu-close>
+            <img src="./assets/images/search.png" width="24" height="24" alt="open search box">
+        </button>
+
+        <button class="menu-btn" menu-btn menu-toggler>
+            <img src="/assets/images/menu.png" width="24" 
+            height="24" alt="open menu" class="menu">
+            <img src="./assets/images/menu-close.png" width="24" height="24" alt="close menu" class="close">
+        </button>
+
+
+    </header>    
+
+    <main>
+
+    <!-- --------------------------------------------------------
+            SIDEBAR
+            
+      ----------------------------------------- ---------- -->
+        <nav class="sidebar" sidebar>
+            <!-- <div class="sidebar-inner">
+                <div class="sidebar-list">
+                    <p class="title">Genres</p>
+
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Action</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Horror</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Comedy</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Adventure</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Drama</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Sci-Fi</a>
+                </div>
+
+                <div class="sidebar-list">
+                    <p class="title">Language</p>
+
+                    <a href="./movie-list.html" menu-close class="sidebar-link">English</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Hindi</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Odia</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Bengali</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">French</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">Spanish</a>
+                    <a href="./movie-list.html" menu-close class="sidebar-link">German</a>
+                </div>
+
+                <div class="sidebar-footer">
+                    <p class="copyright">copyright 2024
+                        <a href=""> Akash Naik</a>
+                    </p>
+                    <img src="./assets/images/tmdb-logo.svg" width="130" height="17" alt="the movie database logo">
+                </div>
+            </div> -->
+
+        </nav>
+
+        <div class="overlay" overlay menu-toggler></div>
+
+    <article class="container" page-content>
+
+
+        <!-----------------------------------------------------
+            - #movies List
+        -------------------------------------------->
+
+        <!-- <section class="movie-list genre-list">
+
+        </section> -->
+
+
+    </article>
+
+
+        <!-- <div class="search-model active">
+            <p class="lable">Results for</p>
+
+            <h1 class="heading">Puss in Boots</h1>
+
+            <div class="movie-list">
+                <div class="grid-list">
+                    
+                    <div class="movie-card">
+                        <figure class="poster-box card-banner">
+                            <img src="./assets/images/slider-control.jpg" 
+                            alt="Puss in Boots: The Last Wish" class="img-cover">
+                        </figure>
+                        <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img src="./assets/images/star.png" width="20" height="20" loading="lazy" alt="rating">
+
+                                <span class="span">8.4</span>
+                            </div>
+
+                            <div class="card-badge">2022</div>
+
+                        </div>
+
+                        <a href="./detail.html" class="card-btn" title="Puss in Boots: The Last Wish"></a>
+
+                    </div>
+                
+            </div>
+            </div>
+
+
+        </div>  -->
+
+
+    </main>
+
+</body>
+</html>
